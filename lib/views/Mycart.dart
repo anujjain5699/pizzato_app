@@ -48,7 +48,7 @@ class _MyCartState extends State<MyCart> {
 
   Future checkMeOut() async {
     var options = {
-      'key': 'rzp_test_Exv8yZ6ebQLFMz',
+      'key': 'Api_key_here',
       'amount': total,
       'name':
           Provider.of<Authentication>(context, listen: false).getEmail == null
